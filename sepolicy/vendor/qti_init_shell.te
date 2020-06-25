@@ -6,3 +6,5 @@ allow qti_init_shell bluetooth_data_file:file r_file_perms;
 
 # Required for FM
 allow qti_init_shell self:socket create;
+
+set_prop(qti_init_shell, power_prop);
