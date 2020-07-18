@@ -277,3 +277,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.min.fling_velocity=160 \
 ro.max.fling_velocity=20000
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.com.google.ime.corner_key_r=35 \
+ro.com.google.ime.kb_pad_port_b=1
