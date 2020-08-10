@@ -203,7 +203,14 @@ ro.telephony.use_old_mnc_mcc_format=true \
 service.qti.ims.enabled=1 \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 telephony.lteOnCdmaDevice=1 \
-persist.sys.fflag.override.settings_network_and_internet_v2=true
+persist.sys.fflag.override.settings_network_and_internet_v2=true \
+persist.radio.VT_CAM_INTERFACE=2 \
+persist.radio.NO_STAPA=1 \
+persist.vendor.radio.procedure_bytes=SKIP \
+persist.vendor.radio.rat_on=combine \
+persist.vendor.radio.data_ltd_sys_ind=1 \
+persist.vendor.radio.data_con_rprt=1 \
+persist.radio.calls.on.ims=1
 
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
