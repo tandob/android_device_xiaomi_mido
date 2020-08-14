@@ -24,10 +24,6 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common Ancient ROM stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
